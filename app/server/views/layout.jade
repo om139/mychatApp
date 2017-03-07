@@ -1,0 +1,22 @@
+doctype html
+html
+    head
+        title ChatX
+        link(rel='stylesheet', href='/vendor/bootstrap.min.css')
+        link(rel='stylesheet', href='/css/style.css')
+        link(rel="stylesheet" href="/css/app.css")
+        link(rel='stylesheet', href='//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.min.css')
+        script(src='/js/jquery-1.8.0.js')
+        script(src="/js/socket.io.js")
+        script (src = "/js/bootstrap.js")
+
+    body
+    div.container#main
+        div.navbar.navbar-fixed-top
+            div.navbar-inner
+                a.brand(href="#") &nbsp; &nbsp; ChatX
+            div.container
+
+
+    block content
+    block scripts
